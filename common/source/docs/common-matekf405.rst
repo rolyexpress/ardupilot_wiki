@@ -84,3 +84,18 @@ This board does not include a GPS or compass so an :ref:`external GPS/compass <c
     :width: 450px
 
 A battery must be plugged in for power to be provided to the 5V pins supplying the GPS/compass modules. USB power is not provided to peripherals.
+
+Common errors
+===============================
+Mission Planner doesn't recognize the board, no COM port:
+On Windows Device manager, manually change Windows driver to STM32 Virtual Com Port.
+
+Mission Planner error "check brd_type baro error":
+You must first plug in the battery, after the beeps, plug in USB and connect on Mission Planner.
+
+
+
+
+
+
+
